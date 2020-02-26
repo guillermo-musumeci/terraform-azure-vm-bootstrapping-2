@@ -1,3 +1,7 @@
+######################################
+## Windows VM with Web Server - Web ##
+######################################
+
 # Virtual Machine Extension to Install IIS
 resource "azurerm_virtual_machine_extension" "iis-windows-vm-extension" {
   depends_on=[azurerm_windows_virtual_machine.web-windows-vm]
